@@ -1,0 +1,17 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "Sports_App",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    }
+  ],
+  "generated": "2024-10-26T10:14:59.503902Z",
+  "generator": "pub",
+  "generatorVersion": "3.5.3",
+  "flutterRoot": "file:///C:/Users/DELL/Downloads/flutter_windows_3.24.3-stable/flutter",
+  "flutterVersion": "3.24.3",
+  "pubCache": "file:///C:/Users/DELL/AppData/Local/Pub/Cache"
+}

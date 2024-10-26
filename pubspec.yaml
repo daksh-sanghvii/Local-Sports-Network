@@ -1,0 +1,27 @@
+#file: noinspection YAMLSchemaValidation
+name: Sports_App
+funding:
+  -
+dependency_overrides:
+executables:
+publish_to:
+topics:
+  -
+documentation:
+description:
+ignored_advisories:
+  -
+repository:
+version: 0.1.0
+screenshots:
+  -
+platforms:
+dependencies:
+environment:
+  sdk: '^3.5.0'
+flutter:
+issue_tracker:
+false_secrets:
+  -
+homepage:
+dev_dependencies:
