@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "466265247347",
+    "project_id": "app-sports-bedb7",
+    "storage_bucket": "app-sports-bedb7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466265247347:android:280accfaf6e0410566e406",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqnd5lPS-SXRfVCZNyjO8XXXSaHhJCqBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
