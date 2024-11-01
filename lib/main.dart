@@ -1,6 +1,25 @@
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async{
+
+  WidgetsFlutterBinding.ensureInitialized();
+
+  if(kIsWeb){
+    await Firebase.initializeApp(options: FirebaseOptions(apiKey: "AIzaSyBKJg_HVcGrOs6ECnhYdD6DxHLaGngry0E",
+      authDomain: "app-sports-bedb7.firebaseapp.com",
+      projectId: "app-sports-bedb7",
+      storageBucket: "app-sports-bedb7.firebasestorage.app",
+      messagingSenderId: "466265247347",
+      appId: "1:466265247347:web:ced96f1071decc3466e406",
+      measurementId: "G-K99CD1W4KP"));
+  }
+  else{
+    await Firebase.initializeApp();
+  }
+
+  
   runApp(LoginApp());
 }
 
